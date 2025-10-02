@@ -1,10 +1,10 @@
+ 
 * {
     box-sizing: border-box
 }
 
 
-
-
+/* there are three rows of three in standard tic-tac-toe */
 .row {
     display: flex;
     justify-content: center;
@@ -12,7 +12,7 @@
 
 
 
-
+/* the individual play square (gameField) */
 .gameField {
     padding: 0;
     width: 200px;
@@ -28,21 +28,27 @@
     border: 2px solid rgb(60, 60, 100);
 }
 
-.message {
+/* .message {
     text-align: center;
     font-size: 1.5em;
     margin-top: 10px;
-}
+} */
 
-#wonMatch {
+/* #wonMatch {
     display: block;
     background-color: blue;
-}
+} */
 
+
+/* a minimalist reset button to not draw attention away from the gameBoard */
 #resetButton {
     display: block;
     margin: 20px auto;
     padding: 10px 20px;
     font-size: 1em;
     cursor: pointer;
+}
+
+#gameBoard {
+    background-color: grey;
 }
