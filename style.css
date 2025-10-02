@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box
+}
+
+
+
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.gameField {
+    padding: 0;
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+    font-size: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    background-color: white;
+    border-radius: 4px;
+    border: 2px solid rgb(60, 60, 100);
+}
+
+.message {
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+#wonMatch {
+    display: block;
+    background-color: blue;
+}
+
+#resetButton {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+}
